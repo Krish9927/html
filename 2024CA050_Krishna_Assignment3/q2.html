@@ -1,0 +1,36 @@
+
+
+<!-- Write a JavaScript program to create a slideshow that changes the displayed image when a
+next or previous button is clicked.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlideShow</title>
+</head>
+<body>
+    <div id="Slideshow" class="slideshow">
+        <div class="slideshow">
+          <div class="slideshow-item active">
+            <img src="https://media.istockphoto.com/id/1330875650/photo/picturesque-lake-eibsee.jpg?s=612x612&w=0&k=20&c=Frf1ZRDBL7-ywZO9zclRIVAJ6GrmZs3IWf8J1EqTEws=" class="d-block w-100" alt="image not load" width="100%">
+          </div>
+          <div class="slideshow-item">
+            <img src="https://www.shutterstock.com/image-photo/beach-seat-laptop-wallpepar-hd-260nw-2498994455.jpg" width="100%" class="d-block w-100" alt="image not load">
+          </div>
+          <div class="slideshow-item">
+            <img src="https://cdn.pixabay.com/photo/2015/01/15/16/17/hands-600497_1280.jpg" class="d-block w-100" alt="image not load" width="100%">
+          </div>
+        </div>
+        <button class="slideshow-control-prev" type="button" data-bs-target="#slideshowExample" data-bs-slide="prev">
+          <span class="slideshow-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="slideshow-control-next" type="button" data-bs-target="#slideshowExample" data-bs-slide="next">
+          <span class="slideshow-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</body>
+</html>
